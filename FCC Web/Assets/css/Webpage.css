@@ -1,0 +1,514 @@
+*{
+    font-family: 'Poppins';
+}
+
+.Padding{
+    width: 121px;
+    height: 54px;
+    padding-right: 1px;
+    border-radius: 38px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Button_bg{
+    align-self: stretch; 
+    padding: 10px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.Button_text{
+    color: white; 
+    font-size: 14px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.Dash{
+    left: 904px; 
+    top: 36px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px; 
+    display: inline-flex;
+
+}
+
+.Padding:hover{
+    .Button_text{
+        text-decoration: underline;
+        color: #0F406B;
+    }
+    #Home.Padding{
+        background-color: #0F406B;
+    }
+    background-color: #FFD600 ;
+
+}
+
+#Logo{
+    width: 481px; 
+    padding-right: 0px; 
+    left: 109px; 
+    top: 29px; 
+    position: absolute; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.Dashboard_size{
+    width: 1920px; 
+    height: 277px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.Background_rec{
+    width: 1920px; 
+    height: 900px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: linear-gradient(82deg, #0F406B 0%, rgba(15, 64, 107, 0.42) 100%); 
+    border-bottom-right-radius: 193px;
+}
+
+.Circle1{
+    width: 327px; 
+    height: 327px; 
+    left: 118px; 
+    top: 409px; 
+    position: absolute;
+}
+
+.Circle2{
+    width: 354px; 
+    height: 354px; 
+    left: 1197px; 
+    top: 137px; 
+    position: absolute;
+}
+
+.Rectangle_background{
+    width: 1920px; 
+    height: 2866px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9;
+}
+
+.Frame{
+    width: 1920px; 
+    height: 1080px; 
+    position: relative; 
+    background: white;
+}
+
+#LogoSmall{
+    width: 331px; 
+    padding-right: 7px; 
+    left: 109px; 
+    top: 26px; 
+    position: absolute; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.SmallDash{
+    width: 1920px; 
+    height: 220px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: linear-gradient(82deg, #0F406B 0%, rgba(15, 64, 107, 0.42) 100%); 
+    border-bottom-left-radius: 118px; 
+    border-bottom-right-radius: 118px;
+}
+
+.Dashboard_size2{
+    width: 1920px; 
+    height: 220px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.Infocard{
+    width: 494px; 
+    height: 553.92px; 
+    border-radius: 66px; 
+    position: absolute; 
+    box-shadow: 13px 13px 4px rgba(0, 0, 0, 0.50);
+}
+
+.Infobg{
+    width: 494px; 
+    height: 553.92px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 66px;
+}
+
+.InfoFrame{
+    height: 117.89px; 
+    left: 69px; 
+    top: 286px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 17px; 
+    display: inline-flex;
+}
+
+#InfoText{
+    width: auto; 
+    height: 27.96px; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.ProfileImg{
+    width: 185px; 
+    height: 184px; 
+    left: 154px; 
+    top: 63px; 
+    position: absolute; 
+    background: black; 
+    border-radius: 9999px;
+}
+
+.ContactButton{
+    width: 320px; 
+    height: 60px; 
+    padding: 10px; 
+    left: 87px; 
+    top: 444px; 
+    position: absolute; 
+    background: #FFD600; 
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 66px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.ContactText{
+    color: #0F406B; 
+    font-size: 40px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    width: 320px; 
+    height: 60px; 
+    padding: 10px; 
+    left: 87px; 
+    top: 444px; 
+    position: absolute; 
+    background: #FFD600; 
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 66px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.ContactText:hover{
+    background: #C6A600;
+    box-shadow: 0 0;
+    cursor: pointer;
+}
+
+
+.ProjectFrame{
+    width: 1629px; 
+    height: 1767px; 
+    left: 138px; 
+    top: 646.50px; 
+    position: absolute; 
+    background: linear-gradient(180deg, rgba(15, 64, 107, 0.58) 0%, #0F406B 100%); 
+    border-radius: 66px
+}
+
+.ProjectCard{
+    width: 1494px; 
+    height: 311px; 
+    left: 213px; 
+    top: 749.50px; 
+    position: absolute
+}
+
+.ProjectCardbg{
+    width: 1494px; 
+    height: 311px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 66px
+}
+
+.ProjectPic{
+    width: 190px; 
+    height: 190px; 
+    left: 85px; 
+    top: 60px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 9999px
+}
+
+.ProjectDescription{
+    left: 324px; 
+    top: 60px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.ProjectTitle{
+    left: 649px; 
+    top: 394px; 
+    position: absolute; 
+    color: black; 
+    font-size: 84px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.ContactParagraphFrame{
+    width: 659px; 
+    height: 496px; 
+    padding-left: 37px; 
+    padding-right: 37px; 
+    left: 203px; 
+    top: 330px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 21px; 
+    display: inline-flex
+}
+
+.ContactUs{
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.ContactUsTitle{
+    color: black; 
+    font-size: 32px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+
+.ContactParagraph{
+    width: 549px; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+
+.BackBtn{
+    width: 161px; 
+    padding: 10px; 
+    left: 166px; 
+    top: 337px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex
+}
+
+.BackText{
+    color: #6D6D6D; 
+    font-size: 32px; 
+    font-family: Poppins; 
+    font-weight: 600;  
+    word-wrap: break-word;
+}
+
+.BackBtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#6D6D6D;
+}
+
+.InfoRec{
+    width: 1671px; 
+    height: 1817px; 
+    left: 115px; 
+    top: 283px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 66px;
+}
+
+.PersonImg{
+    width: 750px; 
+    height: 500px; 
+    left: 876px; 
+    top: 1431px; 
+    position: absolute;
+}
+
+.InfoMajor{
+    width: 1346px; 
+    height: 86px; 
+    left: 280px; 
+    top: 1173px; 
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    word-wrap: break-word
+}
+
+.Language{
+    width: 1346px; 
+    height: 86px; 
+    left: 280px; 
+    top: 1289px; 
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    word-wrap: break-word
+}
+
+.Introduction{
+    width: 1346px; 
+    height: 495px; 
+    left: 280px; 
+    top: 648px; 
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    word-wrap: break-word
+}
+
+#InformationPage{
+    width: 1920px; 
+    height: 2263px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9;
+}
+
+.MemberTitle{
+    width: 259px; 
+    height: 88px; 
+    left: 821px; 
+    top: 478px; 
+    position: absolute; 
+    color: black; 
+    font-size: 56px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.HorizontalMembers{
+    --spacer: 1rem;
+    left: 310px;
+    top: 1403px;
+    position: absolute;
+    border-radius: 66px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    border: 0.50px rgba(0, 0, 0, 0.15) solid;
+    gap: 82px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    width: 1239px;
+    height: 574px;
+    gap: 100px;
+    padding: 0 var( --spacer ) var( --spacer );
+}
+
+#ProjectCard{
+    position: relative;
+}
+
+
+.ProjectName{
+    width: 427px; 
+    height: 88px; 
+    left: 736px; 
+    top: 478px; 
+    position: absolute; 
+    color: black; 
+    font-size: 56px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.Maindesc{
+    width: 1346px; 
+    height: 495px; 
+    left: 310px; 
+    top: 649px; 
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    word-wrap: break-word;
+}
+
+.LanguageProj{
+    width: 1346px; 
+    height: 86px; 
+    left: 310px; 
+    top: 1173px;
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    word-wrap: break-word;
+}
+
+.MembersProj{
+    width: 1346px; 
+    height: 86px; 
+    left: 310px; 
+    top: 1288px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+
+}
